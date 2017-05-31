@@ -20,7 +20,7 @@ def gamble(sequence, balance):
 
     # If the sequence is empty, the labouchere system says that the round is over.
     # End the recursion. This is essentially a win.
-    if len(sequence)<1:
+    if len(sequence) < 1:
         print "Aborting because the sequence is empty"
         return balance
 
