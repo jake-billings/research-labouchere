@@ -40,7 +40,7 @@ def run_bankroll_strategy(sequence=[0.00001,0.00002,0.00003], rounds=5, max_bala
             break
 
         # Run one full round of Labouchere
-        resulting_balance = gamble(sequence, balance)
+        bets, resulting_balance = gamble(sequence, balance)
 
         # Store if Labouchere made a profit, or "won"
         if resulting_balance > initial_balance:
