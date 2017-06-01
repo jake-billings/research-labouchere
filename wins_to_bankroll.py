@@ -16,13 +16,17 @@ def wins_to_bankroll(sequence=[1, 2, 3], min_bankroll=0, max_bankroll=40000, ste
     start = time()
     last_update = 0
 
+    # Calculate the total number of simulations that will be run in order to give the user
+    # updates. This process can take a few minutes to complete, so updates are nice.
     total_rounds = (max_bankroll - min_bankroll) / step * rounds_per_bankroll
 
+    # Iterate over each balance we intend to run simulations for
     for balance in range(min_bankroll, max_bankroll, step):
         wins = 0
         losses = 0
         draws = 0
 
+        # Run rounds_per_bankroll number of simulations with balance
         for i in range(0, rounds_per_bankroll):
             bets, resulting_balance = gamble(sequence, balance)
 
@@ -37,9 +41,10 @@ def wins_to_bankroll(sequence=[1, 2, 3], min_bankroll=0, max_bankroll=40000, ste
             t = time()
             if t - last_update > update_frequency:
                 print "Completed %s/%s rounds in %s seconds" % (
-                balance / step * rounds_per_bankroll, total_rounds, floor(t - start))
+                    balance / step * rounds_per_bankroll, total_rounds, floor(t - start))
                 last_update = t
 
+        # Append a row for later export to CSV (or other processing)
         results.append([balance, wins, losses, draws])
 
     # Print a benchmark for how long the simulation took
