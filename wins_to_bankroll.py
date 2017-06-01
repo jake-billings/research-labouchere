@@ -6,7 +6,7 @@ from math import floor, log
 
 
 # Analyzes the number of bets won
-# returns a hisogram where the number of rounds resulting in each number of bets is counted
+# returns a histogram where the number of rounds resulting in each number of bets is counted
 def wins_to_bankroll(sequence=[1, 2, 3], min_bankroll=0, max_bankroll=40000, step=1, rounds_per_bankroll=1000,
                      update_frequency=2):
     # Store results in a dict
