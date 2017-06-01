@@ -2,7 +2,7 @@ from labouchere import gamble
 from export_csv import export_array_as_csv
 
 from time import time
-from math import floor, log
+from math import floor
 
 
 # Analyzes the number of bets won
