@@ -45,11 +45,11 @@ def gamble(sequence=[1,2,3], balance=4000, history=[]):
         bets, resulting_balance, history = gamble(sequence[1:-1], balance+bet, history)
         # Increment the number of bets because we made a one and return the resulting balance
 
-        resulting_history = [[bet, won, balance, sequence]]+history
+        resulting_history = [[bet, won, balance, '"'+str(sequence)+'"']]+history
         return bets+1, resulting_balance, resulting_history
     else:
         bets, resulting_balance, history = gamble(sequence+[bet], balance-bet, history)
-        resulting_history = [[bet, won, balance, sequence]]+history
+        resulting_history = [[bet, won, balance, '"'+str(sequence)+'"']]+history
         return bets+1, resulting_balance, resulting_history
 
 
