@@ -1,3 +1,6 @@
+# Copyright (c) 2017 [Jake Billings]
+# See LICENSE for more information
+
 import random
 
 from labouchere import gamble

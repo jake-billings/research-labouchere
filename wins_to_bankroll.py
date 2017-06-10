@@ -1,3 +1,6 @@
+# Copyright (c) 2017 [Jake Billings]
+# See LICENSE for more information
+
 from labouchere import gamble
 from export_csv import export_array_as_csv
 

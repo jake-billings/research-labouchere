@@ -9,3 +9,9 @@ This code helps simulate the eventual outcomes of running the Labouchere system.
 ![screenshot](imgs/screenshot_2.png)
 
 See https://en.wikipedia.org/wiki/Labouch%C3%A8re_system
+
+# Intellectual Property
+Copyright (c) 2017 [Jake Billings]
+
+See LICENSE for more information
+

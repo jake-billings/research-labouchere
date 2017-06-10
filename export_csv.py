@@ -1,3 +1,6 @@
+# Copyright (c) 2017 [Jake Billings]
+# See LICENSE for more information
+
 # Exports each key value pair as a row in a csv file
 def export_dict_as_csv(d, name='export.csv'):
     with open(name, 'w') as wfile:

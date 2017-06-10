@@ -1,3 +1,6 @@
+# Copyright (c) 2017 [Jake Billings]
+# See LICENSE for more information
+
 # This utility script helps generate histogram data based on the contents of a CSV
 # It is intended as a post-processing tool from CSV data dumped from strategy_bankroll.py.
 
