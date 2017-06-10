@@ -35,4 +35,4 @@ def bids_before_completion_histogram(sequence=[1,2,3], balance=4000, rounds=100,
     return results
 
 if __name__ == "__main__":
-    export_dict_as_csv(bids_before_completion_histogram(rounds=10000000),name='bids_before_completion.csv')
+    export_dict_as_csv(bids_before_completion_histogram(rounds=10000),name='bids_before_completion.csv')
