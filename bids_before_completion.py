@@ -8,7 +8,7 @@ from time import time
 from math import floor
 
 # Analyzes the number of bets made before a round of labouchere ends
-# returns a hisogram where the number of rounds resulting in each number of bets is counted
+# returns a histogram where the number of rounds resulting in each number of bets is counted
 def bids_before_completion_histogram(sequence=[1,2,3], balance=4000, rounds=100, update_frequency=2):
     # Store results in a dict
     results = {}
