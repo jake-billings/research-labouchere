@@ -13,7 +13,7 @@ def flip_coin():
 
 
 # Runs a simulation of the Labouchere betting system with a given starting sequence and balance.
-# Returns the ending balance after running the system to completion
+# Returns the ending balance after running the system to completion and the number of bets it took
 # This is a recursive function. Each function call is one "round" of betting.
 #
 # See: https://en.wikipedia.org/wiki/Labouch%C3%A8re_system
