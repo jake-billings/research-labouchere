@@ -1,4 +1,7 @@
 # research-labouchere
+
+[![DOI](https://zenodo.org/badge/92955890.svg)](https://zenodo.org/badge/latestdoi/92955890)
+
 research-labouchere contains a simulation of the Labouchère system.
 
 These results are analyzed in depth in the paper An Investigation into Laboucheres Betting System to Improve Odds of Favorable Outcomes to Generate a Positive Externality Empirically (arXiv:1707.00529)
