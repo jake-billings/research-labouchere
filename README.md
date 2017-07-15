@@ -1,7 +1,9 @@
 # research-labouchere
-research-labouchere contains a work-in-progress simulation of the Labouchère system.
+research-labouchere contains a simulation of the Labouchère system.
 
-[Click Here to Read the Full Paper](pdf/An%20Investigation%20into%20Labouch%C3%A8re%E2%80%99s%20Betting%20System%20to%20Improve%20Odds%20of%20Favorable%20Outcomes%20to%20Generate%20a%20Positive%20Externality%20Empirically.pdf)
+These results are analyzed in depth in the paper An Investigation into Laboucheres Betting System to Improve Odds of Favorable Outcomes to Generate a Positive Externality Empirically (arXiv:1707.00529)
+
+[Click Here to Read the Full Paper](https://arxiv.org/abs/1707.00529)
 
 ![screenshot](imgs/screenshot.png)
 
